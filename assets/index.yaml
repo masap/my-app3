@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  my-app3:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.9.0-0 < 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-11-25T07:53:51.203459463Z"
+    description: my-app3 plugin
+    digest: 668793a1b62a5f4becb5a5d0795be5081fadfdf051a0ec7859a1e9afc32f4b4b
+    name: my-app3
+    type: application
+    urls:
+    - assets/my-app3/my-app3-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-25T07:53:51.202570719Z"
